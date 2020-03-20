@@ -15,7 +15,7 @@ const usersReducer = ( prevState = initialState, action ) => {
         ...prevState,
         isFetching: true,
       };
-    case ACTION_TYPE.GET_USERS_RESPONSE:
+    case ACTION_TYPE.GET_USERS_SUCCESS:
       return {
         ...prevState,
         isFetching: false,
